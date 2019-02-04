@@ -1,0 +1,14 @@
+#search {
+	position: absolute;
+	width: 10%;
+	left: 85%;
+	top: 15%;
+}
+
+#search:hover {
+	cursor: pointer;
+}
+
+input {
+	outline-width: 0;
+}

@@ -1,0 +1,44 @@
+DayLabel {
+	font-size: 50%;
+}
+
+#today-container {
+	width: 27.5%;
+	border-radius: 10px;
+	position: absolute;
+	background-color: white;
+	margin-left: -28.5%;
+	margin-top: -1.5%;
+}
+
+#today-container:after {
+	content: '';
+	display: block;
+	padding-bottom: 80%;
+}
+
+#weather-data {
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	box-sizing: border-box;
+	color: gray;
+	font-size: 1vw;
+	list-style: none;
+}
+
+#today-container #high-low {
+	position: absolute;
+	left: 20%;
+	bottom: 125%;
+	font-size: 1.5vw;
+	color: purple;
+}
+
+
+#today-icon {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -12%;
+}
+

@@ -1,0 +1,48 @@
+.day-container {
+	position: absolute;
+	display: flex;
+	margin-left: 25%;
+	margin-top: 5.5%;
+	width: 70%;
+}
+
+#location {
+	position: absolute;
+	margin-top: 35%;
+	margin-left: 25.5%;
+}
+
+input[type=text] {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	width: 85%;
+	font-size: 5vw;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: .5px .5px 2px gray;
+}
+
+input[type=text]::placeholder {
+	color: white;
+	font-size: 5vw;
+	text-shadow: .5px .5px 2px gray;
+	text-transform: uppercase;
+}
+
+input:focus::placeholder {
+	opacity: 0;
+}
+
+#city, #state {
+	margin: 0;
+}
+
+#today {
+	width: 500px;
+}
+
+#week {
+	width: 100%;
+	height: 100%;
+
+}

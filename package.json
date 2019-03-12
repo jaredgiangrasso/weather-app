@@ -2,6 +2,7 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://hidden-bayou-14746.herokuapp.com/",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.7.0",

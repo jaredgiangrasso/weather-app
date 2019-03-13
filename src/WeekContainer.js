@@ -22,7 +22,7 @@ class WeekContainer extends Component {
 	}
 
 	getCoordinates(searchTerm) {
-		var reGeocodeUrl = `http://www.mapquestapi.com/geocoding/v1/address?key=BItCZXXNbczFUj0Dd7g6GiQ8AxTmxC77&location=${searchTerm ? searchTerm : 'Brooklyn'}`;
+		var reGeocodeUrl = `https://www.mapquestapi.com/geocoding/v1/address?key=BItCZXXNbczFUj0Dd7g6GiQ8AxTmxC77&location=${searchTerm ? searchTerm : 'Brooklyn'}`;
 
 		return new Promise ((resolve, reject) => {axios.get(reGeocodeUrl)
 		.then(res => {

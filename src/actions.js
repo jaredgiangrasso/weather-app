@@ -27,7 +27,7 @@ export const fetchWeather = (latitude, longitude) => dispatch => {
 			var newWeeklyWeather = res.data.daily.data;
 			dispatch({type: FETCH_WEATHER, val: newWeeklyWeather});
 
-			var geocodeUrl = `http://www.mapquestapi.com/geocoding/v1/reverse?key=BItCZXXNbczFUj0Dd7g6GiQ8AxTmxC77&location=${latitude},${longitude}`;
+			var geocodeUrl = `https://www.mapquestapi.com/geocoding/v1/reverse?key=BItCZXXNbczFUj0Dd7g6GiQ8AxTmxC77&location=${latitude},${longitude}`;
 			return axios.get(geocodeUrl);
 		})
 		.then(res => {

@@ -60,6 +60,8 @@ class WeekContainer extends Component {
 				i++;
 				if (i===1){
 					return <TodayWindow key={day.time} weather={day} dayName={day.time} count={i}/>;
+				} else if (i === 8) {
+					return;
 				} else {
 					return <DayWindow key={day.time} weather={day} dayName={day.time} count={i}/>;
 				}

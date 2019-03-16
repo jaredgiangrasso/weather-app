@@ -19,7 +19,6 @@ export const store = createStore(weather, applyMiddleware(thunk));
 //Actions
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 export const fetchWeather = (latitude, longitude) => dispatch => {
-
 	const darkUrl = `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/f8333dcfd78a8f0cfc293bdaaca7cdff/${latitude},${longitude}?exclude=minutely,hourly,alerts,flags`;
 		
 		axios.get(darkUrl)

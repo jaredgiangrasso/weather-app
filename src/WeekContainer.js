@@ -68,7 +68,7 @@ class WeekContainer extends Component {
 			})
 		}
 		else {
-			return
+			return <h1>Something's happened to our data - Come back soon!</h1>
 		}
 	}
 

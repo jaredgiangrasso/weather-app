@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import WeekContainer from './components/WeekContainer.js'
+import WeekContainer from './WeekContainer.js'
 import { Provider } from 'react-redux';
-import { store } from './redux/actions.js'
+import { store } from '../redux/actions.js'
 import './App.css';
 
 class App extends Component {

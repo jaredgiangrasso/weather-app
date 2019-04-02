@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import magnifying from './Images/Magnifying.svg';
+import magnifying from '../images/Magnifying.svg';
 import './Search.css'
 
 class Search extends Component {
@@ -13,23 +13,27 @@ class Search extends Component {
 	this.passSubmit = this.passSubmit.bind(this);
 	}
 
+	//pass input change up
 	passChange(event){
 		var newQuery = event.target.value;
 		this.setState({value: event.target.value});
 		this.props.handleChange(newQuery);
 	}
 
+	//clear input
 	clearForm(event) {
 		this.setState({value: ''});
 		event.target[0].blur();
 	}
 
+	//pass submit up
 	passSubmit(event){
 		event.preventDefault();
 		this.props.handleSubmit();
 		this.clearForm(event);
 	}
 
+	//render location information and searchbar
 	render() {
 		var location = `${this.props.city}, ${this.props.state}`;
 		return (

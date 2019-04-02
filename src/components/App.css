@@ -1,7 +1,7 @@
 .App {
   font-family: Helvetica;
   height: 100vh;
-  background-image: url('./Images/Clouds.jpg');
+  background-image: url('../images/Clouds.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

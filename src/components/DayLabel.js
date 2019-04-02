@@ -4,13 +4,12 @@ import './DayLabel.css';
 class DayLabel extends Component {
 
 	getDayName(timestamp){
-		if(this.props.count === 1){
-			return 'Today'
-		} else {
 
+		//Get date and isolate day name
 		var d = new Date(timestamp*1000);
 		d = d.toString().substring(0,3);
 
+		//return full day name
 		switch(d){
 			case 'Sun':
 				return 'Sunday';
@@ -28,7 +27,7 @@ class DayLabel extends Component {
 				return 'Saturday';
 			default:
 				return;
-		}}
+		}
 	}
 
 	render(){

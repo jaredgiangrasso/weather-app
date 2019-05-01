@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import './Icons.css'
+import './Icons.css';
 
-import clearDayIcon from '../images/Climacons_SVG Gradient/Sun.svg';
-import clearNightIcon from '../images/Climacons_SVG Gradient/Moon.svg';
-import rainIcon from '../images/Climacons_SVG Gradient/Cloud-Rain.svg';
-import snowIcon from '../images/Climacons_SVG Gradient/Cloud-Snow.svg';
-import sleetIcon from '../images/Climacons_SVG Gradient/Cloud-Hail.svg';
-import windIcon from '../images/Climacons_SVG Gradient/Cloud-Wind.svg';
-import fogIcon from '../images/Climacons_SVG Gradient/Cloud-Fog.svg';
-import cloudyIcon from '../images/Climacons_SVG Gradient/Cloud.svg';
-import partlyCloudyDayIcon from '../images/Climacons_SVG Gradient/Cloud-Sun.svg';
-import partlyCloudyNightIcon from '../images/Climacons_SVG Gradient/Cloud-Moon.svg';
+import clearDayIcon from '../../images/Climacons_SVG Gradient/Sun.svg';
+import clearNightIcon from '../../images/Climacons_SVG Gradient/Moon.svg';
+import rainIcon from '../../images/Climacons_SVG Gradient/Cloud-Rain.svg';
+import snowIcon from '../../images/Climacons_SVG Gradient/Cloud-Snow.svg';
+import sleetIcon from '../../images/Climacons_SVG Gradient/Cloud-Hail.svg';
+import windIcon from '../../images/Climacons_SVG Gradient/Cloud-Wind.svg';
+import fogIcon from '../../images/Climacons_SVG Gradient/Cloud-Fog.svg';
+import cloudyIcon from '../../images/Climacons_SVG Gradient/Cloud.svg';
+import partlyCloudyDayIcon from '../../images/Climacons_SVG Gradient/Cloud-Sun.svg';
+import partlyCloudyNightIcon from '../../images/Climacons_SVG Gradient/Cloud-Moon.svg';
 
 class weatherIcon extends Component {
 

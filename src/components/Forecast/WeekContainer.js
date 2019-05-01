@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import axios from 'axios';
-import { fetchWeather, fetchLocation, updateQuery } from '../redux/actions.js';
+import { fetchWeather, fetchLocation, updateQuery } from '../../redux/actions.js';
 import './WeekContainer.css';
 import DayWindow from './DayWindow.js';
 import TodayWindow from './TodayWindow.js';
-import Location from './Location.js';
+import Location from '../Search/Location.js';
 
 class WeekContainer extends Component {
 	constructor(props) {

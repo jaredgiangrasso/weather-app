@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import WeekContainer from './WeekContainer.js'
+import WeekContainer from './Forecast/WeekContainer.js'
 import { Provider } from 'react-redux';
 import { store } from '../redux/actions.js'
 import './App.css';

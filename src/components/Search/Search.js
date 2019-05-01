@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import magnifying from '../images/Magnifying.svg';
+import magnifying from '../../images/Magnifying.svg';
 import './Search.css'
 
 class Search extends Component {
